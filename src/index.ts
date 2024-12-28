@@ -50,4 +50,4 @@ async function getUser(username: string) {
     console.log(user);
   }
   
-  getUser("Azmi1");
+  getUser("Moteeullah Azmi");
