@@ -19,6 +19,7 @@ model User {
   password  String
   firstName String
   lastName  String
+  city      String
   Todos     Todos[]
 }
 
@@ -30,4 +31,3 @@ model Todos {
   user_id     Int
   user        User    @relation(fields: [user_id], references: [id])
 }
-
